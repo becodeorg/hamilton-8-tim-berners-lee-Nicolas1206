@@ -1,8 +1,124 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #817a83;
+    box-sizing: border-box;
+}
+
 .timberners img{
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(183, 181, 181);
+    border-color: #ebebeb;
     margin: auto;
     display: block;
+    width: 20%;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #dd5555;
+    margin-top: 18px;
+    letter-spacing: -1px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.timberners h2 {
+    margin-top: -15px;
+}
+
+.timberners p {
+    font-size: 1.2em;
+    
+}
+
+section {
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1em #c5c0c6;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.timberners a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    background-color: #dd5555;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 0.5em;
+}
+
+.rsociaux a{
+    text-decoration: none;
+    text-align: center;
+}
+
+li a{
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5em;
+    padding: 0;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+i, a{
+    color: #d8d8d8;
+}
+
+i {
+    margin-bottom: 0.7em;
+}
+
+
+.film1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    
+}
+
+.film img{
+    max-width: 15%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+h3 {
+    font-weight: 600;
 }
